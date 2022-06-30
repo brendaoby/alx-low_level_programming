@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *r main - Point of entry
+ * main - Point of entry
  *
  * Return: Always 0
  */
