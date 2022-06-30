@@ -5,4 +5,5 @@
 4. C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
 5. Prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
 6. Prints the size of various types on the computer it is compiled and run on.
-7. Generates the assembly code (Intel syntax) of a C code and save it in an output file
+100. Generates the assembly code (Intel syntax) of a C code and save it in an output file.
+101. Prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
