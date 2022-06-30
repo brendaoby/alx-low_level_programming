@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * imain - Prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19 to the standard error
+ * main - Prints a statement
  *
  * Return: Always 1 (Error)
  */
