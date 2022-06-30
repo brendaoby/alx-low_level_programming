@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/** main - prints type sizes
+/** 
+ * main - prints type sizes
  *
  * Return: 0 if exited properly, non-zero if otherwise
  */
