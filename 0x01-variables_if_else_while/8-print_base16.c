@@ -1,5 +1,5 @@
 #include <stdio.h>
-<<<<<<< HEAD
+
 /**
  * main - Prints a hexadecimal string
  * Return: Always 0 (Success)
