@@ -10,3 +10,4 @@
 9. Prints all possible combinations of single-digit numbers.
 100. Prints all possible different combinations of two digits.
 101. Prints all possible different combinations of three digits.
+102. Prints all possible combinations of two two-digit numbers.
