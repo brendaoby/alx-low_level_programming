@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * 
+ *
  * Description: Prints combos of three numbers
  * Return: Always 0 (Success)
  */
