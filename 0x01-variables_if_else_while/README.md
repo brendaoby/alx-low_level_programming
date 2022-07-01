@@ -4,3 +4,4 @@
 3. Prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 4. Prints the alphabet in lowercase except alphabets 'q' and 'e', followed by a new line.
 5. Prints all single digit numbers of base 10 starting from 0, followed by a new line.
+6. Prints all single digit numbers of base 10 starting from 0, followed by a new line.
