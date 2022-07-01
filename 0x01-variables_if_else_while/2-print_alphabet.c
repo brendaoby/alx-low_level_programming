@@ -2,6 +2,7 @@
 
 /**
  * main - Entry point
+ * Description - Displays lowercase alphabets
  * Return - Always 0 (Success)
  */
 int main(void)
