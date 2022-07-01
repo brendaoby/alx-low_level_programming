@@ -8,15 +8,15 @@
  */
 int main(void)
 {
-int num1;
-int num2;
-for (num1 = 0; num1 <= 9; num1++)
+int tens;
+int ones;
+for (tens = 0; tens <= 9; tens++)
 {
-for (num2 = 0; num2 <= 9; num2++)
+for (ones = 0; ones <= 9; ones++)
 }
-putchar(num1 + '0');
-putchar(num2 + '0');
-if (num1 < 8)
+putchar(tens + '0');
+putchar(ones + '0');
+if (tens < 8)
 {
 putchar(',');
 putchar(' ');
