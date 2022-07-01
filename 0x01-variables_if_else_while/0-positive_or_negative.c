@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* more headers goes there*/
 
 /**
- * main - Point of entry
+ * main - Entry point
  * Description - Displays if randomly generated integer is signed or unsigned
  * Return: Always 0 (Success)
  */
@@ -15,7 +16,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 		printf("%d is positive\n", n);
-	elseif (n == 0)
+	else if (n == 0)
 		printf("%d is zero\n", n);
 	else (n < 0)
 		printf("%d is negative\n", n);
