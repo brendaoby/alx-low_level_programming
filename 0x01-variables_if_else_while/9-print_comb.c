@@ -8,13 +8,13 @@
  */
 int main(void)
 {
-int i = 0;
+int i;
 
-for (i = ; i < 10; ++1)
+for (i = 0; i <= 9; ++i)
 {
 	putchar('0' + i);
 	
-	if (i != 9)
+	if (i < 9)
 	{
 		putchar(',');
 		putchar(' ');
