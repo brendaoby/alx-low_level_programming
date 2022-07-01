@@ -3,14 +3,18 @@
 /**
  * main - Entry point
  *
- * Description: Prints base 10 digit numbers from 0
+ * Description: Prints digit numbers from 0 to 9
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int i;
+char i;
 
-for (i = '0'; i <= '9'; i++)
-printf("%d\n", i);
+for (i = '0'; i <= '9'; ++i)
+
+putchar(i);
+
+putchar('\n');
+
 return (0);
 }
