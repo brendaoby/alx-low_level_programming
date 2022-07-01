@@ -6,20 +6,15 @@
  */
 int main(void)
 {
-char c; 
-int hex;
+char c;
 
-for (hex = 0; hex < 16; hex++)
+for (c = 0; c <= 9; c++)
 {
-	if (hex < 10)
-	{
-		putchar(hex + '0');
-	}
-	else
-	{
-		putchar(c);
-		c++;
-	}
+putchar(c)
+}
+for (c = 'a'; c <= 'f'; c++);
+{
+putchar(c);
 }
 putchar('\n');
 return (0);

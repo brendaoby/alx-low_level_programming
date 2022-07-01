@@ -14,21 +14,17 @@ int c;
 
 for (a = 48; a < 58; a++)
 {
-for (b = 48; b < 58; b++)
+for (b = 49; b < 58; b++)
 {
-if (b > a)
+for (c = 50; c < 58; c++)
 {
-for (c = 48; c < 48; c++)
-{
-if (c > b)
+if (c > b && b > a)
 {
 putchar(a);
 putchar(b);
 putchar(c);
-if (a == 55 && b == 56 && c == 57)
+if (a != 55 || b != 56)
 {
-break;
-}
 putchar(',');
 putchar(' ');
 }
@@ -39,4 +35,4 @@ putchar(' ');
 }
 putchar('\n');
 return (0)
-	}
+}

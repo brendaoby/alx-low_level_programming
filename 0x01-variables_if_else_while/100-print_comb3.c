@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * 
+ *
  * Description: Prints possible combos of two numbers
  * Return: Always 0 (Success)
  */
@@ -10,16 +10,20 @@ int main(void)
 {
 int tens;
 int ones;
-for (tens = 0; tens <= 9; tens++)
+
+for (tens = 48; tens <= 56; tens++)
 {
-for (ones = 0; ones <= 9; ones++)
-}
-putchar(tens + '0');
-putchar(ones + '0');
-if (tens < 8)
+for (ones = 49; ones <= 57; ones++)
+{
+if (ones > tens)
+{
+putchar(tens);
+putchar(ones);
+if (tens != 56 || ones != 57)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
