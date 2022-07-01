@@ -1,22 +1,27 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdio.h>
 
 /**
- * main - Prints a hexadecimal string
- * Return: Always 0 (Success)
+ * main - Entry point
+ *
+ * Description: Prints a hexadecimal string
+ * Return: 0
  */
+
 int main(void)
 {
-char c;
+char ch;
+int n;
 
-for (c = 0; c <= 9; c++)
+for (n = 48; n <= 57; n++)
 {
-	putchar(c);
+putchar(n);
 }
-for (c = 'a'; c <= 'f'; c++);
+for (ch = 'a'; ch <= 'f'; ch++)
 {
-	putchar(c);
+putchar(ch);
 }
-
-putchar('\n');
+putchar(10);
 return (0);
 }
