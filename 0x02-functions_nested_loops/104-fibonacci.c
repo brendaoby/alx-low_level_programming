@@ -35,6 +35,6 @@ int main(void)
 		k_2 = k_2 + j_2;
 		j_2 = k_2 - j_2;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
