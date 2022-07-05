@@ -3,6 +3,7 @@
 /**
  * print_times_table - Entry point
  * Description: Prints n times table
+ * @n: Value to be checked
  * Return: 0
  */
 
@@ -29,7 +30,7 @@ void print_times_table(int n)
 			else if (rep < 100)
 			{
 				_putchar(' ');
-				_putchar('0' + (rep - 100) / 100);
+				_putchar('0' + (rep - 100) / 10);
 				_putchar('0' + rep % 10);
 			}
 			if (b < n)
