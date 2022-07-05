@@ -11,6 +11,7 @@
 int print_sign(int n)
 {
 	int sgn_tst;
+
 	if (n > 0)
 	{
 		sgn_tst = 1;
