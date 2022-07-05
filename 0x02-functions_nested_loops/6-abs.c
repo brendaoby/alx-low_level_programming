@@ -4,6 +4,7 @@
 /**
  * _abs - Entry point
  * Descrition: Compute's an integer's absolute value
+ * @b: Value to be checked
  * Return: 0
  */
 
