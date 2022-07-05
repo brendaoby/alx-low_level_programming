@@ -3,12 +3,14 @@
 
 /**
  * _islower - Entry point
- * Description: Checksfor lowercase character
+ * Description: Checks for lowercase character
+ * @c: contains value to be compared
+ * Return: 1 if c is lowercase, 0 if otherwise
  */
 
 int _islower(int c)
 {
-	if (c > 'a' && c > 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
