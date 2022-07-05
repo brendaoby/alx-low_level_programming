@@ -20,5 +20,5 @@ int main(void)
 		b++;
 	}
 	printf("%i\n", sum);
-	return (0)
+	return (0);
 }
