@@ -2,8 +2,9 @@
 #include "main.h"
 
 /**
- * times_table: Prints the 9 times table
- * Return: o
+ * times_table - Entry point
+ * Deascription: Prints the 9 times table
+ * Return: 0
  */
 
 void times_table(void)
@@ -12,12 +13,12 @@ void times_table(void)
 	int d;
 	int e;
 
-	for (b = 0; b <=9; b++)
+	for (b = 0; b <= 9; b++)
 	{
 		for (d = 0; d <= 9; d++)
 		{
 			e = b * d;
-			if ((e/10) == 0)
+			if ((e / 10) == 0)
 			{
 				if (d == 0)
 				{
