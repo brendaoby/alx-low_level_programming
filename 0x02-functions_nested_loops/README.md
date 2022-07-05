@@ -7,3 +7,4 @@
 6. Computes the absolute value of an integer.
 7. Prints the last digit of a number.
 8. Prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+9. Prints the 9 times table, starting with 0.
