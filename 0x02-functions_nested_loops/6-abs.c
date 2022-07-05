@@ -7,10 +7,8 @@
  * Return: 0
  */
 
-int _abs(int)
+int _abs(int b)
 {
-	int b;
-
 	if (b < 0)
 	{
 		return (b * (-1));
