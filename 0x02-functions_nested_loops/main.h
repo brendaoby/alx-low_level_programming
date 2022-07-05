@@ -3,7 +3,7 @@
 #define MAIN_H_INCLUDED
 
 
-int_putchar(char c);
+int _putchar(char c);
 
 
 #endif
