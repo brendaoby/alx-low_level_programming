@@ -1,36 +1,34 @@
 #include "main.h"
-
 /**
  * print_number - Prints an integer
- * @n:Parameter
+ * @n: Parameter
+ * Retrun: 0
  */
 
-void print_number(int n);
+void print_number(int n)
 {
-	unsigned int a, b, c;
+	unsigned int i, j, count;
 
 	if (n < 0)
 	{
 		_putchar(45);
-		a = n * -1;
+		i = n * -1;
 	}
 	else
 	{
-		a = n;
+		i = n;
 	}
 
-	b = a;
+	j = i;
+	count = 1;
 
-	c = 1;
-
-	while (b > 9)
+	while (j > 9)
 	{
-		b /= 10;
-		c *= 10;
+		j /= 10;
+		count *= 10;
 	}
-
-	for (; c >= 1; c /= 10)
+	for (; count >= 1; count /= 10)
 	{
-		_putchar(((a / c) % 10) + 48);
+		_putchar(((i / count) % 10) + 48);
 	}
 }
