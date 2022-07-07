@@ -8,3 +8,4 @@
 7. Draws a diagonal line on the terminal.
 8. Prints a square, followed by a new line.
 9. Prints 1 to 100, followed by a new line. For multiples of three, prints Fizz instead of the number, for multiples of five prints Buzz and for multiples of both three and five print FizzBuzz.
+10. Prints a triangle, followed by a new line.
