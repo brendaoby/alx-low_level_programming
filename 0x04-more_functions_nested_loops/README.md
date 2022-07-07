@@ -10,3 +10,4 @@
 9. Prints 1 to 100, followed by a new line. For multiples of three, prints Fizz instead of the number, for multiples of five prints Buzz and for multiples of both three and five print FizzBuzz.
 10. Prints a triangle, followed by a new line.
 100. Prints the largest prime factor of the number 612852475143, followed by a new line.
+101. Prints an integer.
