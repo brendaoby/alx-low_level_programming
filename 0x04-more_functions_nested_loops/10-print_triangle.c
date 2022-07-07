@@ -1,35 +1,29 @@
 #include "main.h"
 
 /**
- * print_triangle - Prints a trainagle
- * @size: Parameter
+ * print_triangle - Draws a triangle
+ * @size: params
  * Return: 0
  */
-
-void print_triangle(int size);
+void print_triangle(int size)
 {
-	if (size <= 0)
-	{
-		_putchar('\n');
-	}
-	else
-	{
-		int a;
+	int i = 0, j, n = size - 1;
 
-		int b;
-
-		for (a = 1; a <= size; a++)
+	if (size > 0)
+	{
+		for (; i < size; i++)
 		{
-			for (b = 1; b < size; b++)
+			for (j = 0; j < size; j++)
 			{
-				_putchar(' ');
+				if (j < n)
+					_putchar(' ');
+				else
+					_putchar('#');
 			}
-
-			for (b = 1; b <= a; b++)
-			{
-				_putchar('#');
-			}
+			n--;
 			_putchar('\n');
 		}
 	}
+	else
+		_putchar('\n');
 }
