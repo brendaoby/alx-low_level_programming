@@ -7,3 +7,4 @@
 6. Prints every other character of a string, starting with the first character, followed by a new line.
 7. Prints half of a string, followed by a new line.
 8. Prints n elements of an array of integers, followed by a new line.
+9. Copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
