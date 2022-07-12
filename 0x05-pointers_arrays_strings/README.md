@@ -2,3 +2,4 @@
 1. Swaps the values of two integers.
 2. Returns the length of a string.
 3. Prints a string, followed by a new line, to stdout.
+4. Prints a string, in reverse, followed by a new line.
