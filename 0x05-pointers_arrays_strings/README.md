@@ -5,3 +5,4 @@
 4. Prints a string, in reverse, followed by a new line.
 5. Reverses a string.
 6. Prints every other character of a string, starting with the first character, followed by a new line.
+7. Prints half of a string, followed by a new line.
