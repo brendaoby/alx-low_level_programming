@@ -3,3 +3,4 @@
 2. Copies a string up to the nth character.
 3. Compares two strings.
 4. Reverses the content of an array of integers.
+5. Changes all lowercase letters of a string to uppercase.
