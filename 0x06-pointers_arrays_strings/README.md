@@ -5,3 +5,4 @@
 4. Reverses the content of an array of integers.
 5. Changes all lowercase letters of a string to uppercase.
 6. Capitalizes all words of a string.
+7. Encodes a string into 1337. Replacing a, e, o, t, l ans A, E, O, T, L with 4, 3, 0, 7, 1 respectively.
