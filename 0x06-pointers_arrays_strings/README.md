@@ -8,3 +8,4 @@
 7. Encodes a string into 1337. Replacing a, e, o, t, l ans A, E, O, T, L with 4, 3, 0, 7, 1 respectively.
 100. Encodes a string using rot13.
 101. Prints an integer.
+102. Editing given source code so that the program prints a[2] = 98, followed by a new line.
