@@ -2,9 +2,9 @@
 
 /**
  * _strcmp - Compares two strings
- * @s1: Pointer
- * @s2: Pointer
- * Return: s1-s2
+ * @s1: A pointer to a character that will be compared
+ * @s2: A pointer to a character that will also be compared
+ * Return: dest
  */
 
 int _strcmp(char *s1, char *s2)
@@ -14,8 +14,8 @@ int _strcmp(char *s1, char *s2)
 
 	while (*str_one != '\0' && *str_two != '\0' && *str_one == *str_two)
 	{
-		*str_one++;
-		*str_two++;
+		str_one++;
+		str_two++;
 	}
 	return (*str_one - *str_two);
 }
