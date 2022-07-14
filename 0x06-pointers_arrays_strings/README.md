@@ -9,3 +9,4 @@
 100. Encodes a string using rot13.
 101. Prints an integer.
 102. Editing given source code so that the program prints a[2] = 98, followed by a new line.
+103. Adds two numbers.
