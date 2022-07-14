@@ -8,28 +8,21 @@
 
 void print_number(int n)
 {
-	unsigned int t, f, count;
+	unsigned int m;
 
 	if (n < 0)
 	{
-		_putchar(45);
-		t = d * -1;
+		m = -n;
+		_putchar('-');
 	}
 	else
 	{
-		t = n;
+		m = n;
 	}
 
-	f = t;
-	count = 1;
-
-	while (f > 9)
+	if (m / 10)
 	{
-		f /= 10;
-		count *= 10;
+		print_number(m / 10);
 	}
-	for  (; count >= 1; count /= 10)
-	{
-		_putchar(((t / count) % 10) + 48);
-	}
+	_putchar((m % 10) + '0');
 }
