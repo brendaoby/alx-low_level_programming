@@ -2,7 +2,7 @@
 
 /**
  * _evaluate - evaluate function sqrt
- * @i: integer   
+ * @i: integer
  * @n: integer
  * Return: evaluate sqrt
  */
@@ -35,3 +35,4 @@ int _sqrt_recursion(int n)
 	{
 		return (_evaluate(i, n));
 	}
+}
