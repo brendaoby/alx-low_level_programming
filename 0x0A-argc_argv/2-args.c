@@ -4,18 +4,19 @@
  * main - Prints arguments
  * @argc: Counts arguments
  * @argv: Argument array
+ * Return: 0
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	int i = 0;
+	int count = 0;
 
 	if (argc > 0)
 	{
-		while (i < argc)
+		while (count < argc)
 		{
-			printf("%d\n", argv[i]);
-			i++;
+			printf("%s\n", argv[count]);
+			count++;
 		}
 	}
 	return (0);
