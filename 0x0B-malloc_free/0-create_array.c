@@ -23,10 +23,15 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	while (position < size)
+	else
 	{
-		*(buffer + position) = c;
-		position++;
+		position = 0;
+
+		while (position < size)
+		{
+			*(buffer + position) = c;
+			position++;
+		}
+		return (buffer);
 	}
-	return (buffer);
 }
