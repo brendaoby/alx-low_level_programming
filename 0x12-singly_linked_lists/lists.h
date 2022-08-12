@@ -10,7 +10,7 @@
 
 /**
  * struct list_s - Singly linked list
- * @str: String 
+ * @str: String
  * @len: Length of the string
  * @next: Points to the next node
  */
