@@ -8,7 +8,7 @@
  * @idx: The index of the listint_t list where the new
  * node should be added - indices start at 0
  * @n: The integer for the new node to contain
- * Return: The address of the new node or NULL 
+ * Return: The address of the new node or NULL
  * if the function fails
  */
 
